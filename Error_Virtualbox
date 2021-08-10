@@ -1,0 +1,8 @@
+Troubleshoot Pada VirtualBox di Linux
+Pesan error Location: '/pwd/.config/VirtualBox/VirtualBox.xml', line 1 (0), column 1
+langsung cek ke folder /pwd/.config/VirtualBox
+find > file VirtualBox.xml to VirtualBox.xml-old dan file VirtualBox.xml-prev to VirtualBox.xml-old
+kemudian VirtualBox.xml-old diduplicate dengan rename VirtualBox.xml
+kemudian jalankan aplikasi Virtual kalian
+NB : pwd  > /home/username
+referensi > https://forums.virtualbox.org/viewtopic.php?f=1&t=96349
