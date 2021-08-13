@@ -7,3 +7,5 @@ Cara Import paket[pandas] python ke Visual Code Studio  pada linux mint
 6. cari Python: Select Interpreter 
 7. pilih lokasi pandas pada point point 4
 8. F1 dan pilih Developer: Reload Window atau ctrl+R
+
+Referensi > https://stackoverflow.com/questions/52388154/visual-studio-code-windows-python-pandas-no-module-named-pandas
