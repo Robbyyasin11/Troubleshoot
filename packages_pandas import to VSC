@@ -1,0 +1,9 @@
+Cara Import paket[pandas] python ke Visual Code Studio  pada linux mint
+1. install paketnya dengan cara sudo pip install pandas via terminal
+2. Buka VCS dan cek diterminsal VCS
+3. ketik pip -V > pip 20.0.2 from /usr/lib/python3/dist-packages/pip [contoh milik saya]
+4. ketik pip show pandas > /usr/local/lib/python3.8/dist-packages
+5. maka tekan shift+ctrl+p 
+6. cari Python: Select Interpreter 
+7. pilih lokasi pandas pada point point 4
+8. F1 dan pilih Developer: Reload Window atau ctrl+R
