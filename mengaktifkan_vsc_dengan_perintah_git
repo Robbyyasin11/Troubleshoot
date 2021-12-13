@@ -1,0 +1,14 @@
+1. tambahkan akun git anda
+	- git config --global user.name "username"
+	- git config --global user.email "email"
+2. tambahkan perintah berikut
+	- git config --global code.editor "code --wait"
+	- git diff.tool "default-difftool"
+3. sync dengan virtual studio code
+	- git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+4. akses folder git kalian dan ketik perintah berikut
+	- code . > code digunakan untuk inisial dan . atau [dot/titik] lokasi folder tersebut
+5. bilamana belum ada folder git dapat lakukan berikut
+	- sudo mkdir namafolder
+	- sudo git init
+	- maka lakukan perintah 4
