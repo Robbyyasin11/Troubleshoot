@@ -1,0 +1,13 @@
+Cara install mysql-workbench di Linux Mint 20[ulyana-ubuntu focal]
+
+1. download paket terlebih dahulu di link
+https://dev.mysql.com/downloads/file/?id=508805
+2. klik "No thanks, just start my download."
+3. jalankan perintah berikut diterminal
+sudo apt install ./mysql-apt-config_0.8.20-1_all.deb
+4. tunggu ada pertanyaan versi ubuntu yang dipakai,
+disini saya pilih focal sesuai versi Os[cat /etc/os-release]
+5. notif packege configurasi muncul dan pilih "Ok"
+6. jalankan perintah "sudo apt update && sudo apt upgrade -y"
+7. jalankan perintah "sudo apt install mysql-workbench-community"
+8. jalankan perintah "mysql-workbench"
